@@ -12,7 +12,7 @@ def start_game():
     print("2. To your right, a wider passage seems to have some light coming from it.")
 
     choice = input("Do you go left or right? (Type 'left' or 'right'): ").strip().lower()
-
+#
     if choice == 'left':
         narrow_tunnel()
     elif choice == 'right':
